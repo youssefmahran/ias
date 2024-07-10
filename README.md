@@ -15,8 +15,8 @@ Run the following Commands
 mkdir ~/.gazebo/models/IAS
 mkdir ~/.gazebo/models/IAS/meshes
 cd ~/Downloads
-mv model.config model.sdf ~/.gazebo/models/GLab
-mv model.dae Image_0.jpg ~/.gazebo/models/GLab/meshes
+mv model.config model.sdf ~/.gazebo/models/IAS
+mv model.dae Image_0.jpg ~/.gazebo/models/IAS/meshes
 mv turtlebot3_ias.launch turtlebot3_ias_gripper.launch ~/catkin_ws/src/turtlebot3_simulations/turtlebot3_gazebo/launch
 mv IAS.world ias_empty.world ~/catkin_ws/src/turtlebot3_simulations/turtlebot3_gazebo/worlds
 mv turtlebot3_manipulation_gazebo_ias.launch ~/catkin_ws/src/turtlebot3_manipulation_simulations/turtlebot3_manipulation_gazebo/launch
