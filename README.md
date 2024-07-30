@@ -12,8 +12,7 @@ unzip ias.zip -d ~/Downloads
 ## 2. Move the Files
 Run the following Commands
 ```bash
-mkdir ~/.gazebo/models/IAS
-mkdir ~/.gazebo/models/IAS/meshes
+mkdir -p ~/.gazebo/models/IAS/meshes
 cd ~/Downloads
 mv model.config model.sdf ~/.gazebo/models/IAS
 mv model.dae Image_0.jpg ~/.gazebo/models/IAS/meshes
